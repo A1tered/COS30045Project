@@ -1,0 +1,58 @@
+2025-05-02 19:02:34,359 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:34,489 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:34,489 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-02 19:02:34,494 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:34,504 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:34,505 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-02 19:02:39,761 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:39,801 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: The item with id 'root' is not a workflow group (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:39,801 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-02 19:02:39,802 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
