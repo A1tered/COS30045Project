@@ -1,0 +1,22 @@
+{
+  "version" : "5.4.3.v202503031608",
+  "projects" : [ {
+    "name" : "projectPart1",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "projectPart1"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "projectPart1",
+    "timeUsed" : "2025-05-02T18:45:08.6392243+10:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "projectPart1"
+    }
+  } ]
+}

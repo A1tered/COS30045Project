@@ -6,11 +6,11 @@
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
                 "nodename": "CSV Reader",
-                "nrexecs": 0,
+                "nrexecs": 1,
                 "nrfails": 0,
-                "exectime": 0,
+                "exectime": 158,
                 "nrcreated": 1,
-                "nrsettingsChanged": 0,
+                "nrsettingsChanged": 2,
                 "successor": "n/a",
                 "successornodename": "n/a"
             }
@@ -23,7 +23,7 @@
             "WEB_UI": 1
         }
     },
-    "uptime": 422014,
+    "uptime": 739603,
     "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 1,
@@ -36,7 +36,7 @@
     "lastUsedPerspective": "none",
     "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 422014,
+    "timeSinceLastStart": 739603,
     "crashes": 0,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }
