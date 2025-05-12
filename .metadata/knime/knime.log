@@ -1,1 +1,46 @@
 2025-05-02 18:51:22,378 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2025-05-12 16:59:29,660 : WARN  : Thread-1169 :  : OAuthAuthenticator :  :  : Could not stop OAuth redirect listener: null
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(Unknown Source)
+	at java.base/java.util.concurrent.CountDownLatch.await(Unknown Source)
+	at org.eclipse.jetty.io.ManagedSelector.doStop(ManagedSelector.java:137)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.io.SelectorManager.doStop(SelectorManager.java:280)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.AbstractConnector.doStop(AbstractConnector.java:375)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStop(AbstractNetworkConnector.java:82)
+	at org.eclipse.jetty.server.ServerConnector.doStop(ServerConnector.java:241)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:658)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at com.knime.explorer.server.rest.OAuthAuthenticator.stopServer(OAuthAuthenticator.java:733)
+	at com.knime.explorer.server.rest.OAuthAuthenticator.login(OAuthAuthenticator.java:599)
+	at com.knime.explorer.server.rest.OAuthLoginDialog.lambda$0(OAuthLoginDialog.java:179)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-12 17:04:45,432 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 3:7 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2025-05-12 17:04:59,098 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 3:7 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2025-05-12 17:06:32,896 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 3:7 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2025-05-12 17:06:44,297 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:7 valid [3:1, 3:8, 3:10, 3:11, 3:13, 3:17, 3:18, 3:22, 3:23, 3:24] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-12 17:06:44,303 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-05-12 17:06:44,303 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:7 valid [3:1, 3:8, 3:10, 3:11, 3:13, 3:17, 3:18, 3:22, 3:23, 3:24] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-05-12 17:07:23,878 : WARN  : KNIME-Worker-5-Missing Value Column Filter 3:10 :  : Node : Row Filter : 3:11 : Unknown column "Availability Status".
+2025-05-12 17:08:26,039 : WARN  : KNIME-Worker-7-Missing Value Column Filter 3:10 :  : Node : Row Filter : 3:11 : Unknown column "Availability Status".
+2025-05-12 17:08:42,656 : WARN  : KNIME-Worker-7-Statistics 3:24 :  : Node : Statistics : 3:24 : Maximum number of unique possible values (1000) exceeds for column(s): "FINES"
+2025-05-12 17:09:05,823 : WARN  : KNIME-Worker-4-Missing Value Column Filter 3:10 :  : Node : Row Filter : 3:11 : Unknown column "Availability Status".
+2025-05-12 17:09:18,827 : WARN  : KNIME-Worker-5-Duplicate Row Filter 3:13 :  : Node : Row Filter : 3:11 : Unknown column "Availability Status".
