@@ -1,87 +1,20 @@
 {
     "version": "5.4.3.v202503031608",
-    "created": "2025-05-02 08:44",
+    "created": "2025-05-12 07:17",
     "nodestats": {
         "nodes": [
-            {
-                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
-                "nodename": "CSV Reader",
-                "nrexecs": 2,
-                "nrfails": 0,
-                "exectime": 221,
-                "nrcreated": 1,
-                "nrsettingsChanged": 2,
-                "successor": "org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeFactory",
-                "successornodename": "Missing Value Column Filter"
-            },
-            {
-                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
-                "nodename": "Missing Value",
-                "nrexecs": 1,
-                "nrfails": 0,
-                "exectime": 113,
-                "nrcreated": 0,
-                "nrsettingsChanged": 0,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            },
-            {
-                "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory",
-                "nodename": "Statistics",
-                "nrexecs": 4,
-                "nrfails": 0,
-                "exectime": 1271,
-                "nrcreated": 1,
-                "nrsettingsChanged": 2,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            },
-            {
-                "id": "org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeFactory",
-                "nodename": "Missing Value Column Filter",
-                "nrexecs": 3,
-                "nrfails": 0,
-                "exectime": 57,
-                "nrcreated": 0,
-                "nrsettingsChanged": 3,
-                "successor": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory",
-                "successornodename": "Statistics"
-            },
-            {
-                "id": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory",
-                "nodename": "Duplicate Row Filter",
-                "nrexecs": 1,
-                "nrfails": 0,
-                "exectime": 106,
-                "nrcreated": 0,
-                "nrsettingsChanged": 0,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            },
-            {
-                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
-                "nodename": "Column Filter",
-                "nrexecs": 0,
-                "nrfails": 0,
-                "exectime": 0,
-                "nrcreated": 0,
-                "nrsettingsChanged": 1,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            }
         ],
         "metaNodes": {
         },
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 2
         }
     },
-    "uptime": 558837,
-    "workflowsOpened": 3,
+    "uptime": 117852,
+    "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
-    "workflowsCreated": 1,
+    "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
@@ -89,9 +22,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 3,
+    "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 752546,
+    "timeSinceLastStart": 117852,
     "crashes": 0,
     "properlyShutDown": true
 }
