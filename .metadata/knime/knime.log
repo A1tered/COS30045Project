@@ -1,1 +1,27 @@
 2025-05-02 18:51:22,378 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2025-05-02 19:04:06,457 : ERROR : KNIME-ConfigurationArea-Checker :  : ConfigurationAreaChecker :  :  : Can't check integrity of configuration area ("C:\Users\chamo\.eclipse\org.eclipse.platform_4.31.0_903338280_win32_win32_x86_64\configuration"): The process cannot access the file because another process has locked a portion of the file
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.knime.core.internal.ConfigurationAreaChecker.lambda$0(ConfigurationAreaChecker.java:135)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-03 22:12:05,081 : WARN  : comm-pool-thread-4 :  : Node : CSV Reader : 4:1 : Please specify a file
+2025-05-03 22:14:17,694 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:2 valid [4:1] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-03 22:14:17,734 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-03 22:14:17,734 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:2 valid [4:1] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
