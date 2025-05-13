@@ -3,16 +3,28 @@
     "created": "2025-05-12 07:17",
     "nodestats": {
         "nodes": [
+            {
+                "id": "org.knime.base.views.node.statistics.StatisticsNodeFactory",
+                "nodename": "Statistics View",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            }
         ],
         "metaNodes": {
         },
         "wrappedNodes": {
         },
         "createdVia": {
+            "WEB_UI": 1
         }
     },
-    "uptime": 117852,
-    "workflowsOpened": 1,
+    "uptime": 102235,
+    "workflowsOpened": 3,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
@@ -22,9 +34,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 1,
+    "launches": 3,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 117852,
+    "timeSinceLastStart": 178151,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }
