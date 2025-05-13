@@ -6,6 +6,72 @@
             {
                 "id": "org.knime.base.views.node.statistics.StatisticsNodeFactory",
                 "nodename": "Statistics View",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 1796,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.base.views.node.statistics.StatisticsNodeFactory",
+                "successornodename": "Statistics View"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "nodename": "Missing Value",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 427,
+                "nrcreated": 1,
+                "nrsettingsChanged": 5,
+                "successor": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory",
+                "successornodename": "String to Date&Time"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.apply.MissingValueApplyNodeFactory",
+                "nodename": "Missing Value (Apply)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory",
+                "nodename": "Statistics",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory",
+                "nodename": "String to Date&Time",
+                "nrexecs": 1,
+                "nrfails": 2,
+                "exectime": 186,
+                "nrcreated": 1,
+                "nrsettingsChanged": 4,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory",
+                "nodename": "Number to String",
                 "nrexecs": 0,
                 "nrfails": 0,
                 "exectime": 0,
@@ -20,10 +86,10 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 1
+            "WEB_UI": 6
         }
     },
-    "uptime": 102235,
+    "uptime": 404223,
     "workflowsOpened": 3,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -36,7 +102,7 @@
     "lastUsedPerspective": "none",
     "launches": 3,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 178151,
+    "timeSinceLastStart": 1084115,
     "crashes": 0,
     "properlyShutDown": false
 }
